@@ -1,8 +1,22 @@
-/*Quais são os dados que o programa irá usar?
-Que tipo de dados são estes?
-Fazer a declaração e separação de cada tipo de variavel 
+/*Quais são os dados que o programa irá usar? Calculo de média, entrada de notas, saída de resultado.
+Que tipo de dados são estes? notas com variação decimal (tipo flutuante)
+Fazer a declaração e separação de cada tipo de variavel :
+  float, nota1, nota2, nota3, media
+
 Quais as mensagens de entrada de dados?
+  Digite a primeira nota 
+  Digite a segunda nota obtida
+  Digite a terceira nota obtida
 Quais as mensagens de saida de dados?
+  Tendo como base as notas nota1, nota2 e nota3, a média obtida foi de: media
 Definir a sequencia de lógia a ser usada
+  mensagem de boas vindas
+  entrada de dados
+    nota1
+    nota2
+    nota3
+  saída de dados:
+    mensagem com informações e média
 Codar a logica em portugol
+
 Traduzir de portugol para C */
