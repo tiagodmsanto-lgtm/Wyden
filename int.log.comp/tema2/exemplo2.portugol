@@ -1,0 +1,25 @@
+Inicio de codigo biblioteca stdio.h
+
+  criação de função main
+    mensagem de boas vindae
+
+declaração de variáveis
+  float, nota1, nota2, nota3, media
+
+entrada de dados
+  digite nota1
+    gravar em nota1
+
+  digite nota2
+    gravar em nota2
+
+  digite nota3
+    gravar em nota 3
+
+  lógica aritmetica
+    media = (nota1 + nota2 + nota3)/3
+
+  saída de dados
+    A média do aluno foi de media pontos.
+
+  return 0
