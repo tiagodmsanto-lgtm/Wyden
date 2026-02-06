@@ -30,3 +30,5 @@ printf("A média é: %.2f", media);
 
 return 0;
 }
+
+/* comentario   */
