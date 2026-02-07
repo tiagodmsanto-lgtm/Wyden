@@ -5,9 +5,7 @@ permite comparar diferentes produtos, valores e estoque*/
 
 int main () {
     //declaração de variáveis
-    char produto1[30], produto2[30], produto3[30];
-    produto1 = "Arroz";
-    produto2 = "Feijão";
+    char produto1[30] = "Arroz", produto2[30] = "Feijão"   , produto3[30];
 
     unsigned int estoque1, estoque2, estoque3;
     estoque1 = 1000;
@@ -36,7 +34,7 @@ int main () {
         printf("O produto %s tem estoque em nivel critico e precisa ser reabastecido. \n", produto1);
     }
     if (estoque2 < estoque_critico2) {
-        printf("o produto %s tem estoque em nivel critico e precisa ser reabastecido. \n", pdoruto2);
+        printf("o produto %s tem estoque em nivel critico e precisa ser reabastecido. \n", produto2);
     }
 
     //comparação de valores entre produtos
