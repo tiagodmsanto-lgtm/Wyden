@@ -2,36 +2,30 @@
 
 int main() {
 
-    int torre, bispo, rainha;
-    char direcaotorre, direcaobispo, direcaorainha;
+    int direcaotorre = 1; // Variável para controlar a direção da torre
+    int direcaobispo = 1; // Variável para controlar a direção do bispo
+    int direcaorainha = 1; // Variável para controlar a direção da rainha
+    // SMovimentação das peças
 
-    // Solicita ao usuário o número de casas que a peça deve percorrer
+    do {
+        printf("A torre está na posição horizontal %d.\n", direcaotorre);
+        direcaotorre ++;
+        printf("A torre está na posição horizontal %d a direita.\n", direcaotorre);
+    } while ( direcaotorre <= 4);
 
-    printf("Digite o numero de casas que a torre deve percorrer: ");
-    scanf("%d", &torre);
-    printf("Digite a direção que a torre deve percorrer (1 para horizontal, 2 para vertical): ");
-    scanf(" %c", &direcaotorre);
-    printf("Digite o numero de casas que o bispo deve percorrer: ");
-    scanf("%d", &bispo); 
-    printf("Digite a direção que o bispo deve percorrer (1 para diagonal, 2 para anti-diagonal): ");
-    scanf(" %c", &direcaobispo); 
-    printf("Digite o numero de casas que a rainha deve percorrer: ");
-    scanf("%d", &rainha);
-    printf("Digite a direção que a rainha deve percorrer (1 para horizontal, 2 para vertical, 3 para diagonal, 4 para anti-diagonal): ");   
-    scanf(" %c", &direcaorainha);
+    do {
+        printf ("A rainha está na posição %d a esquerda.\n", direcaorainha);
+        direcaorainha ++;       
+        printf ("A rainha está na posição %d a esquerda.\n", direcaorainha);
+    }   while (direcaorainha <= 7);
 
-    // Exibição de movimentação das peças
+    do {
+        printf ("O bispo está na posição %d.\n", direcaobispo);
+        printf("Casa %d: Cima, Direita\n", direcaobispo);
+        
+        direcaobispo++; // Incrementa para a próxima casa
+        
+    } while (direcaobispo <= 5);
 
-
-    printf("A torre se moveu %d casas na direção %c\n", torre, direcaotorre);
-
-
-
-
-
-
-
-
-
-
+    return 0;
 }
