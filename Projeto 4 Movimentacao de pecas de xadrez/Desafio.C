@@ -5,7 +5,7 @@ int main() {
     int direcaotorre = 1; // Variável para controlar a direção da torre
     int direcaobispo = 1; // Variável para controlar a direção do bispo
     int direcaorainha = 1; // Variável para controlar a direção da rainha
-    // SMovimentação das peças
+    // Movimentação das peças
 
     do {
         printf("A torre está na posição horizontal %d.\n", direcaotorre);
