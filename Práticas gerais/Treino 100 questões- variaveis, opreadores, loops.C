@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 // queestão 1
 
@@ -59,7 +60,18 @@ farenheit = celcius * 1.8 + 32;
 printf("A temperatura em Farenhiet é de %f graus.", farenheit);
 
 
-// questão 9
+//Questão 9
+
+int num, antecessor;
+printf("Digite um numero: .");
+scanf("%d", &num);
+
+antecessor = num - 1;
+
+printf("O numero antecessor é:%d", antecessor);
+
+
+// questão 10
 
 float salario, horas_trabalhadas, valor_hora;
 printf("Digite quantas horas foram trabalhadas durante o mes: ." %f, &horas_trabalhadas);
@@ -67,7 +79,7 @@ printf("Digite o valor da hora trabalhada: ;", %f, &valor_hora);
 salario = valor_hora * horas_trabalhadas;
 printf("O salario do funcionario é de %f reais.", salario);
 
-// questão 10
+// questão 11
 
 float reais, dolares;
 printf("Digite o valor em reais para serem convertidos em dolares: .", %f, &reais);
@@ -138,6 +150,19 @@ scanf("%f", preço);
 preço_final = preço * 1,25;
 printf("O valor final do produto é de %f reais.", valor_final);
 
+
+
+//Questão 19
+
+
+float comb, dist, media;
+
+printf("Digite a quantidade de combustivel gasta em litros e a distancia percorrida em km".);
+scanf("%f %f", &comb, &dist);
+
+media = dist / comb;
+
+printf("A média de consumo foi de %d Km/l.", media);
 
 //questão 20
 
@@ -275,12 +300,44 @@ else if (operacao==4) {printf (a/b)};
 
 //Questão 31
 
-não sei fazer
+int a, b, c;
+
+printf("Digite os valores dos lados: ");
+scanf("%d %d %d", &a, &b, &c);
+
+if (a<(b+c) && b<(a+c) && c<(a+b)) {
+    printf("Os valores são aceitos para formar triangulo.")
+}
+else {
+    printf("Os valores não são aceitos para formar um triangulo.")
+};
 
 
 //Questão 33
 
-não sei nenhum tipo de variavel que aceite horas
+int h1, h2, hRes, m1, m2, mRes, s1, s2, sRes;
+int totalIni, totalFin;
+int dif;
+
+printf("Digite a hora de inicio do jogo (HH:MM:SS");
+scanf("%d:%d:%d", &h1, &m1, &s1);
+
+printf("Digite a hora de encerramento do jogo (HH:MM:SS");
+scanf("%d:%d:%d", &h2, &m2, &s2);
+
+totalIni = (h1*3600) + (m1*60) + s1;
+totalFin = (h2*3600) + (m2*60) + s2;
+dif = totalFin - totalIni;
+
+if (dif<0) {
+        dif = dif + (3600*24)
+};
+
+hRes = (dif / 3600);
+mRes = (dif % 3600) / 60;
+sRes = dif % 60;
+
+printf ("O total de tempo gasto em jogo foi de %d:%d:%d .", hRes, mRes, sRes);
 
 
 //Questão 34
@@ -341,12 +398,71 @@ int numero;
 printf("Digite umm numero: ");
 scanf("%d", &numero);
 
-if (100<=numero<=200) {printf("O numero %d está dentro do intervalo.", numero)};
-else () {printf("O numero %d não está dentro do intervalo", numero)};
+if (100<=numero<=200) {printf("O numero %d está dentro do intervalo.", numero)}
+else () {printf("O numero %d não está dentro do intervalo", numero)}
 
 
 //Questão 38
 
 
+int idade;
 
+printf("Digite a idade do nadador: .");
+scanf("%d", &idade);
+
+if (idade<12) {
+    printf("Categoria infantil");
+}
+else if (12<=idade && idade<18) {
+    printf("Categoria juvenil");
+}
+else {
+    printf("Categoria aldulto");
+}
+
+
+//Questão 39
+
+
+int num;
+
+printf("Digite um numero: .");
+scanf("%d", &num);
+
+if ( num % 3 == 0 && num % 5 == 0) {
+    printf ("O numero é multiplo de 3 e 5.");
+}
+
+
+//Questão 40
+
+#define LOGIN  "admin";
+#define PASSWORD 12345;
+
+char usuario[50];
+int senha;
+
+printf("Digite o seu nome de usuario: .");
+scanf("%s", usuario);
+
+printf("Digite sua senha: .");
+scanf("%d", &senha);
+
+if (usuario == LOGIN && senha == PASSWORD) {
+printf("Dados aceitos, login in efetuado.");
+}
+else {
+    printf("Dados invalidos, tente novamente.");
+}
+
+
+//Questão 41
+
+
+for (int i = 0; i<100; i++) {
+    printf ("%d", i);
+}
+
+
+//Questão 42
 
