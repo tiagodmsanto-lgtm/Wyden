@@ -7,7 +7,8 @@ printf ("Olá, Mundo!");
 // questão 2
 
 int a;
-scanf("digite um número inteiro: ", %d, &a);
+printf("digite um número inteiro: ");
+scanf("%d", &a);
 printf("O número digitado foi: %d", a);
 
 // questão 3
@@ -28,7 +29,7 @@ printf("A média aritmética dos numeros é de: %d", (a+b+c+d)/4);
 
 float metros, quilometros;
 printf("digite um numero de metros para serem convertidos em quilômetros: ");
-scanf("%.3f", &metros);
+scanf("%f", &metros);
 quilometros = metros / 1000;
 printf("O total de quilometros é de: %.3f", quilometros);
 
@@ -44,7 +45,7 @@ printf("A área do quadrado é de %d unidades de área.",area);
 
 int area, raio;
 printf("Digite a medida do raio do circulo: ");
-scanf("%d", raio);
+scanf("%d", &raio);
 area = 3.14 * (raio * raio);
 prinft("A area do circulo é de %d unidades de área.", area);
 
@@ -87,7 +88,7 @@ printf("A área do triangulo é de %f unidades de área.", area);
 float mg, g;
 printf("Digite a dosagem do rempedio em miligramas: .");
 scanf("%f", miligramas);
-g = miligramas * 1000;
+g = miligramas / 1000;
 printf("A dosagem da medicação em gramas é de: %f g.", g);
 
 
@@ -166,7 +167,7 @@ scanf("%d", &num);
 int num;
 scanf("%d", &num);
 
-        if (num%2=0) {
+        if (num % 2 == 0) {
             printf("O numero é par");
              };
         else () {
@@ -221,8 +222,13 @@ else (diasAno==366) {printf(!Ano Bissexto)};
 //Questão 27
 
 
-não sei resolver
+char letra;
+scanf("%c", &letra);
 
+if (letra == a || letra == e || letra == i || letra == o || letra == u) {
+        printf("Vogal");
+}
+else {printf("consoante")};
 
 
 //Questão 28
@@ -248,7 +254,7 @@ float media;
 scanf("%f", &media);
 
 if (media.=6,9) {printf("Reprovado")};
-else () {printf("Aprovado")};
+else {printf("Aprovado")};
 
 
 //Questão 30
@@ -273,4 +279,74 @@ não sei fazer
 
 
 //Questão 33
+
+não sei nenhum tipo de variavel que aceite horas
+
+
+//Questão 34
+
+
+int anoVigente = 2026
+int ano;
+
+
+printf("Digite a data o ano de validade do medicamento: .");
+scanf("%d", &ano);
+
+if (ano<anoVigente) { printf("O medicamento está vencido")}
+else () {printf("O medicamento está dentro da validade")};
+
+
+
+//Questão 35
+
+float salario;
+int faixa;
+
+prinft("Digite o valor do salario: .");
+
+scanf("%f", &salario);
+
+printf("Esolha a faixa salarial: 1 - 7%  // 2- 15%   //  3 - 22%  ");
+scanf ("%d", &faixa);
+
+if (faixa==1) {printf(salario*0,07)};
+else if (faixa==2) {printf(salario*0,15)};
+else if (faixa==3) {printf(salario*0.22)};
+
+
+
+//Questão 36
+
+int dia;
+
+printf("Digite o numero do dia da semana: ");
+scanf("%d", &dia);
+
+if (dia==1) {printf("Hoje é Domingo")};
+else if (dia==2) {printf("Hoje é Segunda")};
+else if (dia==3) {printf("Hoje é Terça")};
+else if (dia==4) {printf("Hoje é Quarta")};
+else if (dia==5) {printf("Hoje é Quinta")};
+else if (dia==6) {printf("Hoje é Sexta")};
+else if (dia==7) {printf("Hoje é Sabado")};
+
+
+
+
+//Questão 37
+
+int numero;
+
+printf("Digite umm numero: ");
+scanf("%d", &numero);
+
+if (100<=numero<=200) {printf("O numero %d está dentro do intervalo.", numero)};
+else () {printf("O numero %d não está dentro do intervalo", numero)};
+
+
+//Questão 38
+
+
+
 
