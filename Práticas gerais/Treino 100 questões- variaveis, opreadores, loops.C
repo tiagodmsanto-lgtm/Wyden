@@ -466,3 +466,272 @@ for (int i = 0; i<100; i++) {
 
 //Questão 42
 
+for (int i = 100; i == 0; i--) {
+    printf("$d", i);
+}
+
+
+//Questão 43
+
+for (int i = 0; i == 100; i++)
+    if (i % 0) {
+        printf("%d", i);
+    }
+
+//Questão 44
+
+
+int soma = 0;
+
+for (int i = 0; i == 10, i++) {
+    soma = soma + i;
+
+    printf("%d", soma);
+}
+
+
+//Questão 45
+
+
+int a, b, c, d, e, f, g, h, i, j, total;
+scanf("%d %d %d %d %d %d %d %d %d %d", &a, &b, &c, &d, &e, &f, &g, &h, &i, &j);
+total = a + b + c + d + e + f + g + h + i + j
+
+printf("%d", total);
+
+
+//Questão 46
+
+
+int num;
+
+scanf("%d", &num);
+
+for (int i = 0; i == 10; i++) {
+    num = num * i
+
+    printf("%d", num);
+}
+
+
+
+//Questão 47
+
+
+int contador;
+
+for (int i = 0; i == 5; i++) {
+    scanf("%d", &contador);
+        if (contador<0) {
+            contador = contador + 1;
+        }
+
+    printf("%d", contador);
+}
+
+
+
+//Questão 48
+
+
+int numero;
+long long int resultado = 1;
+
+scanf("%d", &numero);
+if (n<0) {
+    printf("numero invalido");
+}
+else {
+    for (int i = 0; i <= n; i++) {
+        resultado = resultado * i;
+    }
+}
+
+
+
+//Questão 49
+
+
+int idade;
+
+do {
+    scanf("%d", &idade);
+    if (idade != 0) {
+        printf("Idade registrada. \n");
+    }
+
+}
+while (idade != 0);
+
+
+
+//Questão 50
+
+
+
+int idade;
+float media;
+int acumulador = 0;
+int soma = 0;
+
+do {
+    scanf("%d", &idade);
+
+    
+
+    if(idade != 0) {
+         printf("Idade registrada");
+         acumulador ++;
+    }
+
+    soma = soma + idade;
+
+
+
+}   while (idade != 0);
+    media = soma / acumulador;
+    printf ("%.2f", media);
+
+
+
+//Questão 51
+
+int num;
+int contador = 0;
+
+scanf("%d", &num);
+
+for (int i=1; i <= num; i++) {
+    if (num % i == 0) {
+        contador ++;
+    }
+    
+}   if (contador == 2) {
+        printf("Numero não é primo");
+    }
+
+
+//Questão 52
+
+
+int a = 0;
+int b = 1;
+soma = 0;
+
+for (int i = 0; i < 13; i++) {
+
+    soma = a + b;
+    a = b;
+    b = soma;
+
+    printf ("%d", soma);
+}
+    
+
+
+//Questão 53
+
+
+int num;
+int maior, menor;
+
+scanf("%d", &num);
+maior = num;
+menor = num;
+
+for (int i = 1; i <=10; i++) {
+    scanf("%d", &num);    
+    if(num>maior) {
+        maior = num;
+    }  
+    else if (num<menor) {
+        menor = num;
+    }
+
+}
+printf("%d %d", maior, menor);
+
+
+//Questão 54
+
+for (int i = 0; i = 32; i <= 126) {
+    printf("%d %c", i, i);
+}
+
+
+//Questão 55
+
+
+char pedido[50];
+
+do {
+    scanf("%s", pedido);
+}   whiile (strcmp(pedido, "sair") != 0)
+
+
+//Questão 56
+
+int x, y, total;
+
+printf("Defina o nunmero a ser elevado e sem seguida sua potencia: .");
+scanf("%d %d", &x, &y);
+
+for (int i= 0; i < y; i++) {
+   toal = total * x;
+   i++
+}
+
+
+//Questão 57
+
+
+int num;
+int acumulador = 0;
+
+for (int i = 0; i <= 10; i++) {
+    scanf("%d", &num);
+
+    if (10<=num && 50>=num) {
+        acumulador++;
+    }
+}
+printf("%d", acumulador);
+
+
+
+//Questão 58
+
+
+int n;
+
+scanf("%d", &n);
+
+for(int i = 0; i < n; i++) {
+    for(int j = 0; j < n; j++) {
+        printf("*");
+    }
+
+    printf("\n");
+}
+
+
+//Questão 59
+
+
+int lado;
+for (int i = 0; i < n; i++) {
+    for (int j = 0; j < i; j++) {
+        printf("*");
+    }
+    printf("\n");
+}
+
+
+//Questão 60
+
+int num;
+
+do {
+    scanf("%d", &num);
+    printf("%d", num);
+} while (num%2 == 3 )
