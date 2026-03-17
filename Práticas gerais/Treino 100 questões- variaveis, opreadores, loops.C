@@ -148,3 +148,129 @@ a = b;
 b = aux;
 printf("O valor de A é de %d e o valor de B é de %d .", a, b);
 
+
+
+//Questão 21 
+
+
+int num;
+scanf("%d", &num);
+
+    if (num>0){
+        printf("O numero é positivo"};
+    else (printf"O numero é negativo");
+
+
+//Questão 22
+
+int num;
+scanf("%d", &num);
+
+        if (num%2=0) {
+            printf("O numero é par");
+             };
+        else () {
+            printf("O numero é impar");
+        };
+
+
+//Questão 23
+
+int a,b;
+scanf("%d, %d", &a, &b);
+printf("%d, %d", a, b);
+
+
+//Questão 24
+
+int idade;
+scanf("%d", &idade);
+
+if (idade.18) {
+    printf("Menor de idade")
+};   else () {
+    printf("Maior de idade")
+};
+
+
+
+//Questão 25
+
+int num1, num2, num3, maior, menor, aux;
+
+scanf("%d, %d, %d", &num1, &num2, &num3);
+
+if(num1>num2<num3) {printf("%d, %d, %d", num3, num1, num2)};
+else if (num3>num2<num1) {printf("%d, %d, %d", num1, num3,num2)};
+else if (num2>num1<num3) {printf("%d, %d, %d", num3, num2, num1)};
+else if(num3>num1<num2) {printf("%d, %d, %d", num2, num3, num1)};
+else if (num1>num3<num2) {printf("%d, %d, %d", num2, num1, num3)};
+else if (num2>num3<num1) {printf("%d, %d, %d", num1, num2, num3)};
+
+
+//Questão 26
+
+int diasAnos;
+
+scanf("%d", &diasAno);
+
+if (diasAno==365) {printf(" Ano normal")};
+else (diasAno==366) {printf(!Ano Bissexto)};
+
+
+//Questão 27
+
+
+não sei resolver
+
+
+
+//Questão 28
+
+
+float peso, altura, imc;
+
+printf("Digite primeiro o seu peso em quilogramas e depois sua altura em metros:   ");
+scanf("%.2f, %.2f", peso, altura);
+
+imc = peso * (altura*altura);
+
+if (imc>18,5) {printf("Você está abaixo do peso ideal.")};
+else if (18,5<=imc>=24,9) {printf("Você está no peso normal")};
+else if (25<=imc>=29,9) {printf("Você está sobrepreso")};
+else if (30<=imc>=39,9) {printf("Você está obesinho")};
+
+
+//Questão 29
+
+float media;
+
+scanf("%f", &media);
+
+if (media.=6,9) {printf("Reprovado")};
+else () {printf("Aprovado")};
+
+
+//Questão 30
+
+
+int a, b, operacao
+
+printf("Digite dois numeros: .");
+scanf("%d, %d", &a, &b);
+
+printf("selecione uma operacao: 1- adicao, 2- subtracao, 3- multiplicacao, 4-divisao");
+scanf("%d", &operacao);
+
+if (operacao==1) {printf (a + b)};
+else if (operacao==2) {printf(a-b)};
+else if (operacao==3) {printf (a*b)};
+else if (operacao==4) {printf (a/b)};
+
+//Questão 31
+
+não sei fazer
+
+
+//Questão 33
+
