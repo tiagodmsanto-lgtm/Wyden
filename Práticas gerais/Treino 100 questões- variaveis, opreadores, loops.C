@@ -734,4 +734,51 @@ int num;
 do {
     scanf("%d", &num);
     printf("%d", num);
-} while (num%2 == 3 )
+} while (num%2 == 3);
+
+
+//Questão 61
+
+
+int ids[10];
+ 
+for (int i=0; i<10; i++) {
+    printf("Digite um numero \n");
+    scanf("%d", &ids);
+}
+for(int j=0; j<10; j++) {
+    printf("IDS: %d.", j, ids[j]);
+}
+
+
+//Questão 62
+
+int lista[5];
+
+for (int i=0); i<6; i++) {
+    printf("Digite um numero: ");
+    scanf("%d", &lista);
+}
+for (int j=5; j<0; j--) {
+    printf("%d", j, lista[5]);
+}
+
+
+//Questão 63
+
+int vetor[5];
+int soma;
+float media;
+
+for (int i=0; i<6; i++) {
+    printf("Digite um numero: ");
+    scanf("%d", &vetor);
+}
+
+for (int j=0; j<6; j++) {
+    soma = soma + vetor[j]
+}
+media = soma / 5;
+
+printf("%d", media);
+
