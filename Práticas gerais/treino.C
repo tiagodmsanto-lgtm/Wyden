@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> 
 #include <string.h>
 
 
@@ -49,11 +49,12 @@ printf("A área do quadrado é de %d unidades de área.",area);
 
 // questão 7
 
-int area, raio;
+float raio;
+float area;
 printf("Digite a medida do raio do circulo: ");
-scanf("%d", &raio);
+scanf("%f", &raio);
 area = 3.14 * (raio * raio);
-prinft("A area do circulo é de %d unidades de área.", area);
+printf("A area do circulo é de %f unidades de area.", area);
 
 // questão 8
 
@@ -762,7 +763,7 @@ for(int j=0; j<10; j++) {
 
 int lista[5];
 
-for (int i=0); i<6; i++) {
+for (int i=0; i<6; i++) {
     printf("Digite um numero: ");
     scanf("%d", &lista);
 }
