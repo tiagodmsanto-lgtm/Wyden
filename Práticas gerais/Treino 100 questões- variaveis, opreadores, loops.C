@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 
+
+int main() {
+    
+
+
 // queestão 1
 
 printf ("Olá, Mundo!");
@@ -74,8 +79,10 @@ printf("O numero antecessor é:%d", antecessor);
 // questão 10
 
 float salario, horas_trabalhadas, valor_hora;
-printf("Digite quantas horas foram trabalhadas durante o mes: ." %f, &horas_trabalhadas);
-printf("Digite o valor da hora trabalhada: ;", %f, &valor_hora);
+printf("Digite quantas horas foram trabalhadas durante o mes: .");
+scanf("%f", &horas_trabalhadas);
+printf("Digite o valor da hora trabalhada: .");
+scanf("%f", &valor_hora);
 salario = valor_hora * horas_trabalhadas;
 printf("O salario do funcionario é de %f reais.", salario);
 
@@ -90,7 +97,7 @@ printf("O total após conversão foi de %f dolares.", dolares);
 // questão 12
 
 float base, altura, area;
-printf("Digite a medida da base e a altura do triangulo: .", %f, %f, &base, &altura);
+printf("Digite a medida da base20 e a altura do triangulo: .", %f, %f, &base, &altura);
 area = (base * altura) / 2;
 printf("A área do triangulo é de %f unidades de área.", area);
 
@@ -136,7 +143,7 @@ printf("O valor final do item é de %f reais.", valor_final);
 
 int idade, dias.
 printf("Digite a sua idade em anos.");
-scanf("%d", idade);
+scanf("%d", idade);20
 dias = idade * 365;
 printf("A sua idade em dias é de %d dias.", dias);
 
@@ -782,3 +789,8 @@ media = soma / 5;
 
 printf("%d", media);
 
+
+
+
+
+}
