@@ -7,64 +7,66 @@ int main() {
 
 
 // queestão 1
-
+{
 printf ("Olá, Mundo!");
-
+}
 // questão 2
-
+{
 int a;
 printf("digite um número inteiro: ");
 scanf("%d", &a);
 printf("O número digitado foi: %d", a);
-
+}
 // questão 3
-int a, b;
+
+{int a, b;
 printf("digite dois numeros: ");
 scanf("%d %d", &a, &b);
 printf("A soma dos numeros é de : %d", a + b);
-
+}
 // questão 4
-
+{
 int a,b,c,d;
 
 printf("Digite quatro numeros: ");
 scanf("%d %d %d %d", &a, &b, &c, &d);
 printf("A média aritmética dos numeros é de: %d", (a+b+c+d)/4);
-
+}
 // questão 5
 
+{
 float metros, quilometros;
 printf("digite um numero de metros para serem convertidos em quilômetros: ");
 scanf("%f", &metros);
 quilometros = metros / 1000;
 printf("O total de quilometros é de: %.3f", quilometros);
-
+}
 // questao 6
 
-int area, lado;
+{int area, lado;
 printf("digite a medida do lado do quadrado: ");
 scanf("%d", &lado);
 area = lado * lado;
 printf("A área do quadrado é de %d unidades de área.",area);
-
+}
 // questão 7
 
-float raio;
+{float raio;
 float area;
 printf("Digite a medida do raio do circulo: ");
 scanf("%f", &raio);
 area = 3.14 * (raio * raio);
 printf("A area do circulo é de %f unidades de area.", area);
-
+}
 // questão 8
 
-float celcius, farenheit;
+{float celcius, farenheit;
 
 printf("Digite a temperatura em Celsius: ");
 scanf("%f", &celcius);
 farenheit = celcius * 1.8 + 32;
 printf("A temperatura em Farenhiet é de %f graus.", farenheit);
-
+}
 
 //Questão 9
 
