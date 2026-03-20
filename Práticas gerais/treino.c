@@ -793,7 +793,16 @@ media = soma / 5;
 printf("%d", media);
 
 
+//Questão 64
 
+{
+    int vetor [5];
+    printf("Digite 5 numeros: ");
+    for (int i=0; i<5; i++) {
+        scanf("%d", vetor);
+    }
+    
+}
 
 
 }
