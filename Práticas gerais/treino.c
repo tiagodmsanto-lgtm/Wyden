@@ -797,12 +797,122 @@ printf("%d", media);
 
 {
     int vetor [5];
+    int soma, media;
     printf("Digite 5 numeros: ");
     for (int i=0; i<5; i++) {
         scanf("%d", vetor);
     }
+    for (int j=0; j<5; j++) {
+        soma = soma + vetor[j];
+    }
+    media = soma / 5;
+    printf("%d", media);
     
 }
 
+//Questão 65
 
+{
+
+    int vetor [5];
+    int num;
+
+    printf("Digite o multiplicador: ");
+    scanf("%d", &num);
+    printf("Digite os 5 numeros do vetor que serão multiplicados: ");
+    for (int i=0; i<5; i++) {
+        scanf("%d", vetor[i]);
+    }
+    for (int j=0; j<5; j++) {
+        vetor[j] = vetor[j] * num;
+        printf("%d", vetor[j]);
+    }
+}
+
+//Questão 67
+
+{
+    int vetor_a[5];
+    int vetor_b[5];
+    int vetor_soma[5];
+
+    printf("Digite os 5 numeros do vetor A: ");
+    for (int i=0; i<5; i++) {
+        scanf("%d", vetor_a[i]);
+    }
+    printf("Digite os 5 numeros do vetor B: ");
+    for (int j=0; j<5; j++) {
+        scanf("%d", vetor_b[j]);
+    }
+    for (int k=0; k<5; k++) {
+        vetor_soma[k] = vetor_a[k] + vetor_b[k];
+        printf("%d", vetor_soma[k]);
+    }
+}
+
+
+//Questão 68
+
+{
+    int num;
+    int vetor[5];
+
+    printf("Digite os 5 numeros para compor a matriz: ");
+        for (int a=0; a<5; a++) {
+        scanf("%d", vetor[a])
+    
+    }
+
+    printf("Digite um valor para ser encontrado dentro do vetor: ");
+    scanf("%d", num);
+
+    if (num = vetor [a]) {
+        printf("O numero %d está presente no vetor", num);
+    }
+    else {
+        printf("O numero %d não está presente no vetor", num);
+    }
+}
+
+//Questão 69
+
+{
+
+    int vetor_a[5];
+    int vetor_b[5];
+
+    printf("digite os 5 valores para compor o vetor A: ");
+    for( int a=0; a<5; a++) {
+        scanf("%d", vetor_a[a]);
+    }
+    for (int b=0; b<5; b++) {
+        vetor_b[a] = vetor_a[a];
+        
+    }
+    for (int c=0; c<5; c++) {
+        printf("%d", vetor_b[c]);
+}
+
+//Questão 70
+
+{
+    int vetor_a[5];
+    
+
+    printf("Digite os 5 numeros para compor o vetor A: ");
+    for (int a=0; a<5; a++) {
+        scanf("%d", &vetor_a[a]);
+    
+    bubbleSort(vetor_a, 5);
+    printf("Vetor ordenado: ");
+    for (int i=0; i<5; i++) {
+        printf("%d ", vetor_a[i]);
+}
+
+//Questão 71
+
+{
+
+    
+}
 }
