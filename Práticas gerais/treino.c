@@ -7,16 +7,20 @@ int main() {
 
 
 // queestão 1
+
 {
 printf ("Olá, Mundo!");
 }
+
 // questão 2
+
 {
 int a;
 printf("digite um número inteiro: ");
 scanf("%d", &a);
 printf("O número digitado foi: %d", a);
 }
+
 // questão 3
 
 {int a, b;
@@ -24,7 +28,9 @@ printf("digite dois numeros: ");
 scanf("%d %d", &a, &b);
 printf("A soma dos numeros é de : %d", a + b);
 }
+
 // questão 4
+
 {
 int a,b,c,d;
 
@@ -32,6 +38,7 @@ printf("Digite quatro numeros: ");
 scanf("%d %d %d %d", &a, &b, &c, &d);
 printf("A média aritmética dos numeros é de: %d", (a+b+c+d)/4);
 }
+
 // questão 5
 
 {
@@ -41,6 +48,7 @@ scanf("%f", &metros);
 quilometros = metros / 1000;
 printf("O total de quilometros é de: %.3f", quilometros);
 }
+
 // questao 6
 
 {int area, lado;
@@ -49,6 +57,7 @@ scanf("%d", &lado);
 area = lado * lado;
 printf("A área do quadrado é de %d unidades de área.",area);
 }
+
 // questão 7
 
 {float raio;
@@ -58,6 +67,7 @@ scanf("%f", &raio);
 area = 3.14 * (raio * raio);
 printf("A area do circulo é de %f unidades de area.", area);
 }
+
 // questão 8
 
 {float celcius, farenheit;
@@ -70,6 +80,7 @@ printf("A temperatura em Farenhiet é de %f graus.", farenheit);
 
 //Questão 9
 
+{
 int num, antecessor;
 printf("Digite um numero: .");
 scanf("%d", &num);
@@ -77,10 +88,11 @@ scanf("%d", &num);
 antecessor = num - 1;
 
 printf("O numero antecessor é:%d", antecessor);
-
+}
 
 // questão 10
 
+{
 float salario, horas_trabalhadas, valor_hora;
 printf("Digite quantas horas foram trabalhadas durante o mes: .");
 scanf("%f", &horas_trabalhadas);
@@ -88,40 +100,45 @@ printf("Digite o valor da hora trabalhada: .");
 scanf("%f", &valor_hora);
 salario = valor_hora * horas_trabalhadas;
 printf("O salario do funcionario é de %f reais.", salario);
+}
 
 // questão 11
 
+{
 float reais, dolares;
 printf("Digite o valor em reais para serem convertidos em dolares: .", %f, &reais);
 dolares = reais *5.25;
 printf("O total após conversão foi de %f dolares.", dolares);
-
+}
 
 // questão 12
 
+{
 float base, altura, area;
 printf("Digite a medida da base20 e a altura do triangulo: .", %f, %f, &base, &altura);
 area = (base * altura) / 2;
 printf("A área do triangulo é de %f unidades de área.", area);
-
+}
 
 // questão 13
 
+{
 float mg, g;
 printf("Digite a dosagem do rempedio em miligramas: .");
 scanf("%f", miligramas);
 g = miligramas / 1000;
 printf("A dosagem da medicação em gramas é de: %f g.", g);
-
+}
 
 // questão 14
 
-
+{
 int a, b, resto;
 printf("Digite dois numeros: .");
 scanf("%d %d", &a, &b);
 resto = a%b;
 printf("O resto da divisão foi de: %d", resto);
+}
 
 
 // questão 15
