@@ -913,6 +913,111 @@ printf("%d", media);
 
 {
 
-    
+    int soma = 0;
+    int votor[5];
+
+    printf("Digiti os numeros para ocmpor o vetor: ");
+    for (int a=0; a<5; a++) {
+        scanf("%d", &votor[a]);
+        if (vetor[a] % 2 == 0) {
+            soma = soma + vetor[a];
+        })
+    }
+    printf("A soma dos numeros pares foi de: %d", soma);
 }
+
+//Questão 72
+
+{ 
+
+    int menor;
+    int vetor[5];
+
+    printf("digite os numeros para compor o vetor: ");
+    for (int a=0; a<5; a++) {
+        scanf("%d", &vetor[a]);
+    }
+}
+
+//Questão 73
+
+{
+
+    int vetor[10];
+    int numero;
+    int i=0;
+
+    while (i<10) {
+        printf("Digite os numeros para compor o vetor: ");
+        scanf("%d", &numero);
+        if(numero%2 != 0) {
+            vetor[i] = numero;
+            i++;
+        }
+        
+    }  
+   
+
+}
+//Questão 74
+
+{
+
+
+    int vetor[5];
+    printf("Digite os numeros para compor o vetor: ");
+    for (int a=0; a<5; a++) {
+        scanf("%d", &vetor[a]);
+         if(vetor[a]<0) {
+            vetor[a]=0;
+         }
+}
+}
+
+//Questão 75
+
+{
+
+    int preço1, mais_caro, mais_barato, preço2, preço3;
+
+    printf("Digite o preço do primeiro produto: ");
+    scanf("%d", &preço1);
+    printf("Digite o preço do segundo produto: ");
+    scanf("%d", &preço2);
+    printf("Digite o preço do terceiro produto: ");
+    scanf("%d", &preço3);
+    if (preço1>preço2 && preço1>preço3) {
+        mais_caro = preço1;
+    }
+    else if (preço2>preço1 && preço2>preço3) {
+        mais_caro = preço2;
+    }
+    else if (preço3>preço1 && preço3>preço2) {
+        mais_caro = preço3;
+    }
+    if (preço1<preço2 && preço1<preço3) {
+        mais_barato = preço1;
+    }
+    else if (preço2<preço1 && preço2<preço3) {
+        mais_barato = preço2;
+    }
+    else if (preço3<preço1 && preço3<preço2) {
+        mais_barato = preço3;
+    }
+    printf("O protudo mais barato custa %d reais.", mais_barato);
+
+}
+
+//Questão 76
+
+{
+
+    
+
+}
+
+
+
+
+
 }
