@@ -2,7 +2,7 @@
 #include <string.h>
 
 
-int main() {
+int main() 
     
 
 
@@ -142,46 +142,47 @@ printf("O resto da divisão foi de: %d", resto);
 
 
 // questão 15
-
+{
 float base, altura, area;
+
 printf("Digite a base e a altura do triangulo: ");
 scanf("%fm %f", &base, &altura);
 area = (base*altura)/2;
 printf("A area do triangulo é de %f unidades de area.", area):
 
-
+}
 // questão 16
-
+{
 float preço, valor_final;
 printf("Digite o valor do item: .");
 scanf("%f", &preço);
 valor_final = preço * 0.90;
 printf("O valor final do item é de %f reais.", valor_final);
-
+}
 
 // questão 17
-
-int idade, dias.
+{
+int idade, dias;
 printf("Digite a sua idade em anos.");
-scanf("%d", idade);20
+scanf("%d", &idade);
 dias = idade * 365;
 printf("A sua idade em dias é de %d dias.", dias);
+}
 
 
 // questão 18
-
-
+{
 float preço, preço_final;
 printf("Digite o preço do item: .");
-scanf("%f", preço);
-preço_final = preço * 1,25;
-printf("O valor final do produto é de %f reais.", valor_final);
-
+scanf("%f", &preço);
+preço_final = preço * 1.25;
+printf("O valor final do produto é de %f reais.", preço_final);
+}
 
 
 //Questão 19
 
-
+{
 float comb, dist, media;
 
 printf("Digite a quantidade de combustivel gasta em litros e a distancia percorrida em km".);
@@ -190,9 +191,13 @@ scanf("%f %f", &comb, &dist);
 media = dist / comb;
 
 printf("A média de consumo foi de %d Km/l.", media);
+}
+
 
 //questão 20
 
+
+{
 int a, b, aux;
 printf("Dgigite dois valores inteiros: .");
 scanf("%d, %d", &a, &b);
@@ -201,21 +206,24 @@ a = b;
 b = aux;
 printf("O valor de A é de %d e o valor de B é de %d .", a, b);
 
-
+}
 
 //Questão 21 
-
+{
 
 int num;
 scanf("%d", &num);
 
     if (num>0){
-        printf("O numero é positivo"};
-    else (printf"O numero é negativo");
-
+        printf("O numero é positivo");
+    }
+    else {
+        printf("O numero é negativo");
+    }
+ }
 
 //Questão 22
-
+{
 int num;
 scanf("%d", &num);
 
@@ -225,17 +233,17 @@ scanf("%d", &num);
         else () {
             printf("O numero é impar");
         };
-
+    }
 
 //Questão 23
-
+{
 int a,b;
 scanf("%d, %d", &a, &b);
 printf("%d, %d", a, b);
-
+}
 
 //Questão 24
-
+{
 int idade;
 scanf("%d", &idade);
 
@@ -245,10 +253,10 @@ if (idade.18) {
     printf("Maior de idade")
 };
 
-
+}
 
 //Questão 25
-
+{
 int num1, num2, num3, maior, menor, aux;
 
 scanf("%d, %d, %d", &num1, &num2, &num3);
@@ -260,9 +268,9 @@ else if(num3>num1<num2) {printf("%d, %d, %d", num2, num3, num1)};
 else if (num1>num3<num2) {printf("%d, %d, %d", num2, num1, num3)};
 else if (num2>num3<num1) {printf("%d, %d, %d", num1, num2, num3)};
 
-
+}
 //Questão 26
-
+{
 int diasAnos;
 
 scanf("%d", &diasAno);
@@ -270,7 +278,7 @@ scanf("%d", &diasAno);
 if (diasAno==365) {printf(" Ano normal")};
 else (diasAno==366) {printf(!Ano Bissexto)};
 
-
+}
 //Questão 27
 
 
